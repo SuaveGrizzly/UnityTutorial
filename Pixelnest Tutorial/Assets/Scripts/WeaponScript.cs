@@ -40,6 +40,7 @@ public class WeaponScript : MonoBehaviour {
     {
         if (CanAttack)
         {
+            transform.position = new Vector3(0, 0, 0);
             shootCooldown = shootingRate;
 
             // Create a new shot
